@@ -16,7 +16,7 @@ const Search = () => {
   return (
     <FormStyle onSubmit={submitHandler}>
       <div>
-        <FaSearch />
+        <FaSearch onClick={submitHandler} />
         <input
           placeholder="search recipes"
           type="text"
@@ -56,6 +56,7 @@ const FormStyle = styled.form`
     left: 0%;
     transform: translate(100%, -50%);
     color: white;
+    cursor: pointer;
   }
 `;
 

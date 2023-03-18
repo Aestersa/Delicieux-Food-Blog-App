@@ -48,7 +48,7 @@ const Container = styled.header`
 
 const NavLink = styled(Link)`
     text-decoration: none;
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
 
     &:hover {
         opacity: 0.8

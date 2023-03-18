@@ -67,6 +67,15 @@ const Card = styled.div`
   border-radius: 2rem;
   overflow: hidden;
   position: relative;
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.8;
+    transition: opacity .8s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+  }
 
   img {
     border-radius: 2rem;

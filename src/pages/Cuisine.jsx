@@ -58,6 +58,16 @@ const Card = styled.div`
     text-align: center;
     padding: 1rem;
   }
+
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.8;
+    transition: opacity .8s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+  }
 `;
 
 export default Cuisine;
